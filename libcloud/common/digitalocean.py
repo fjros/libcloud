@@ -93,7 +93,7 @@ class DigitalOcean_v2_Connection(ConnectionKey):
         number of paginated requests to the API.
         """
         # pylint: disable=maybe-no-member
-        params['per_page'] = self.driver.ex_per_page
+        # params['per_page'] = self.driver.ex_per_page
         return params
 
 
